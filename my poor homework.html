@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+        <meta charset="utf-8">
+        <title>my poor poor homework</title>
+    </head>
+
+<style >
+body {text-align: center;} table {margin: auto;}
+</style>
+
+<body>
+
+    <table  border="1" cellspacing="0" cellpadding="10">
+        <caption align="left"><h2>个人信息收集</h2></caption><br>
+
+        <tr>
+            <th style="text-align:left" colspan="3">1.姓名和联系方式</th>
+        </tr>
+        <tr>
+            <td style="text-align:right;text-indent:70px">真实姓名</td>
+            <td>
+                <input type="text" name="name">*
+            </td>
+            <td>
+                <label for="male">男</label>
+                <input type="radio" name="sex" id="male" value="male">
+                <label for="female">女</label>
+                <input type="radio" name="sex" id="female" value="female">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">电子邮箱</td>
+            <td>
+                <input type="text" name="email">*
+            </td>
+            <td>
+                <strong>非常重要！</strong><br/>这是本工作室与您联系的首选方式哦，请填写真实。
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">电话</td>
+            <td>
+                <input type="text" name="telephone">*
+            </td>
+            <td>电话为必须填写项</td>
+        </tr>
+        <tr>
+            <td style="text-align:right">所实习部门</td>
+            <td colspan="2" style="text-align:left">
+                <select name="department">
+                    <option>研发</option>
+                    <option>管理</option>
+                    <option>运营</option>
+                    <option>客服</option>
+				</select>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">实习岗位</td>
+            <td>
+                <input type="text" name="job" >*
+            </td>
+            <td>研发部岗位：前端/后端/运维</td>
+        </tr>
+        <tr>
+            <td style="text-align:right">手机号码</td>
+            <td>
+                <input type="text" name="tel" maxlength="11">
+            </td>
+            <td rowspan="3"></td>
+        </tr>
+        <tr>
+            <td style="text-align:right">邮箱</td>
+            <td>
+                <input type="text" name="mail">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">性别取向</td>
+            <td>
+                <input type="text" name="sexx">
+            </td>
+        </tr>
+
+    </table> 
+    <br>
+    <br>
+    <input  type="submit" value="提交" >
+</body>
+
+
+</html>
